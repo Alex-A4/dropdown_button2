@@ -1856,7 +1856,7 @@ class DropdownButton2State<T> extends State<DropdownButton2<T>>
               Theme.of(context).focusColor,
           enableFeedback: false,
           child: result,
-          borderRadius: widget.dropdownDecoration?.borderRadius
+          borderRadius: widget.buttonDecoration?.borderRadius
               ?.resolve(Directionality.of(context)),
         ),
       ),
